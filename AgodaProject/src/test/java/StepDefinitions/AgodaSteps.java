@@ -70,7 +70,6 @@ public class AgodaSteps {
 
     @And("Check the page is open as filtered")
     public void checkThePageIsOpenWithFilter() {
-        AgodaPages.
     }
 
     @When("Scroll until find Accomadation Filter and Chose Hotel")
