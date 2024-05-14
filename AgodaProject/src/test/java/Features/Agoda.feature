@@ -2,7 +2,7 @@ Feature: Agoda.com
 
 
   @Smoke
-  Scenario Outline: Agoda.com searching
+  Scenario: Agoda.com searching
     Given User go to  HomePage
     When Click search Hotel
     When Search Location for vacation
@@ -24,7 +24,7 @@ Feature: Agoda.com
     Then Enter name & surname, email
     When Click next step
     And Check the cart page
-    Examples:
+
 
 
 
